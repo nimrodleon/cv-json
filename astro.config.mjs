@@ -4,5 +4,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
     site: "https://nimrodleon.github.io",
     base: "/cv-json/",
-    output: "docs",
+    output: "static",
+    outDir: "docs",
 });
