@@ -6,4 +6,7 @@ export default defineConfig({
     base: "/cv-json/",
     output: "static",
     outDir: "docs",
+    build: {
+        assets: "static",
+    }
 });
