@@ -6,7 +6,7 @@
     "email": "nleonc14@gmail.com",
     "phone": "+51 916533482",
     "url": "https://midu.dev",
-    "summary": "Con más de 5 años de experiencia como desarrollador web, he liderado proyectos desde la gestión de redes hasta sistemas de facturación electrónica. Como administrador de redes y servidores Linux, contribuí a la seguridad de infraestructuras críticas. También trabajé en proyectos para el estado peruano.",
+    "summary": "Con más de 5 años de experiencia como desarrollador web, he liderado proyectos desde la gestión de redes hasta sistemas de facturación electrónica. Como administrador de redes y servidores, contribuí a la seguridad de infraestructuras críticas. También trabajé en proyectos para el estado peruano.",
     "location": {
       "address": "",
       "postalCode": "03701",
@@ -29,33 +29,31 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "ezerdev",
+      "position": "Desarrollador de software",
+      "startDate": "2024-01-04",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "lideré el desarrollo de un sistema de registro de asistencia en línea para la UGEL de Chincheros. También participé en la renovación del sistema de gestión de boletas de docentes, migrando de un sistema de escritorio a una plataforma web, donde además desarrollé nuevos reportes que facilitaron la generación de constancias de pagos.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "DIRECOM S.R.L.",
+      "position": "Administrador de Red & Desarrollador de software",
+      "startDate": "2020-03-01",
+      "endDate": null,
+      "summary": "Como Administrador de Red & Desarrollador de Software en DIRECOM S.R.L., tengo la responsabilidad de garantizar el funcionamiento óptimo de la infraestructura de red de la empresa. En este rol, he desarrollado un sistema integral de gestión de clientes, pagos y cortes automáticos, así como el registro de equipos para la administración de la red, lo que ha permitido automatizar procesos y mejorar la eficiencia operativa. Además, he liderado la creación de un sistema de facturación electrónica en cumplimiento con las normativas de la SUNAT, el cual ha simplificado significativamente la gestión comercial de la empresa.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "sysmagnus",
+      "position": "Desarrollador Web Freelance",
+      "startDate": "2018-03-01",
+      "endDate": null,
+      "summary": "Como Desarrollador Web Freelance en SysMagnus, me especialicé en la creación de sitios web por encargo. Desarrollé varios proyectos utilizando WordPress, incluyendo trabajos académicos y otros proyectos freelance. Continúo aceptando encargos freelance para proyectos de desarrollo web, proporcionando soluciones personalizadas y de alta calidad a clientes diversos.",
       "highlights": [
         "Started the company"
       ]
@@ -341,66 +339,75 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "UGEL-Planillas",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Este proyecto es un sistema web desarrollado para facilitar la gestión de boletas de docentes en las ugeles",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Java & Spring Boot",
+        "MySQL",
+        "React.js & primereact"
       ],
-      "url": "https://mars.codes"
+      "url": "#"
     },
     {
-      "name": "AdventJS",
+      "name": "Registro de Asistencias",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Plataforma web diseñada para gestionar el registro de visitas en instituciones públicas",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "PHP & Lumen",
+        "MySQL",
+        "React.js & primereact"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://github.com/nimrodleon/visitasugelch",
+      "github": "https://github.com/nimrodleon/visitasugelch"
     },
     {
-      "name": "Codember",
+      "name": "Nebula - Facturador",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": "Sistema de facturación electrónica, punto de venta, gestión de inventarios y cuentas por cobrar",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "C# & PHP",
+        "MongoDB",
+        "Angular & Bootstrap"
       ],
-      "url": "https://codember.dev"
+      "url": "https://github.com/nimrodleon/Nebula",
+      "github": "https://github.com/nimrodleon/Nebula"
     },
     {
-      "name": "codi.link",
+      "name": "App Gimnasio",
       "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "description": "Sistema para gestionar la caja, inventario, suscripciones y registro de asistencia en un gimnasio",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "Java & Spring Boot",
+        "Postgres",
+        "React.js & primereact"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "url": "#"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "Wireless-PRO",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "description": "Sistema para la gestión de clientes, pagos y cortes automaticos en una empresa de internet",
       "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
+        "Node.js & Express",
+        "MongoDB",
+        "Angular & Bootstrap",
+        "C#"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "url": "https://github.com/nimrodleon/wireless-pro",
+      "github": "https://github.com/nimrodleon/wireless-pro"
     },
     {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "name": "lookfacil.com",
+      "isActive": true,
+      "description": "Plataforma e-commerce para la venta de ropa y accesorios",
       "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
+        "En desarrollo",
+        "Python & Django",
+        "Postgres",
+        "Next.js & TailwindCSS"
       ],
-      "url": "https://miduconf.com"
+      "url": "https://lookfacil.com"
     }
   ]
 }
